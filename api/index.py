@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import parse_qs
-from energy_model import EnergyModel
+from .energy_model import EnergyModel
 
 class handler(BaseHTTPRequestHandler):
     def do_POST(self):
